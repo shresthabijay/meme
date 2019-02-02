@@ -1,0 +1,16 @@
+{
+    "name": "Team7 Bot",
+    "version": "1.0.0",
+    "description": "Our Bot",
+    "main": "bot.js",
+    "author": "Team7",
+    "dependencies": {
+        "discord.io": "^2.5.3",
+        "discord.js": "^11.4.2",
+        "ffmpeg": "0.0.4",
+        "node-gyp": "^3.8.0",
+        "opusscript": "0.0.6",
+        "winston": "^3.2.1",
+        "ytdl": "^0.11.1"
+    }
+}
