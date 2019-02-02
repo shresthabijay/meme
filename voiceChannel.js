@@ -17,7 +17,7 @@ let play=(memeName,msg)=>{
     data.memeQueue.shift()
 
     data.dispatcher.on("end",()=>{
-        data.connection.player.streamingData.pausedTime =9;
+        data.connection.player.streamingData.pausedTime =5;
         data.playing=false
         if(data.memeQueue[0]){
             play(data.memeQueue[0])
